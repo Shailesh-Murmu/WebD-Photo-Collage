@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log in</title>
+    <link rel="stylesheet" href="/CSS/Backend1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="container">
+      <nav class="navbar">
+        <div class="left">
+            <img src="/Images/logo3.png" alt="Image not found" class="logo">
+        </div>
+        <div class="center" >
+            <ul>
+                <li class="items1"><a href="/Html/CollageFinal.html" class="navbtn">Create</a></li>
+                <li class="items1"><a href="/learn" class="navbtn">Learn</a></li>
+                <li class="items1"><a href="/text" class="navbtn">Explore</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <ul>
+                <li class="class"><a href="/authentication/Sign up.html">Sign up</a></li>
+                <li class="class"><a href="/authentication/Sign in.html">Sign in</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container1">
+        <div class="popup">
+            <h2>Sign up</h2>
+            <p>Enter your email to continue with Chanel <br>(it's free)!</p>
+            <form action="" class="signups"><br>
+                <label for="email">Email:</label>
+                <input type="email" name="email"><br><br>
+                <label for="password">Password:</label>
+                <input type="password" name="password"><br><br>
+                <h5>By continuing, you agree to Collage's Terms of Use. <br> Read our Privacy Policy.</h6>
+                <button class="btn">Submit</button>
+            </form>   
+    </div>
+    </div>
+    </header>
+
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-analytics.js";
+      import {
+        getAuth,
+        createUserWithEmailAndPassword,
+        signInWithEmailAndPassword,
+      } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-auth.js";
+
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyDQ3lqlV32nLGZxCv-jMIKibvipQKijX60",
+        authDomain: "fire-67691.firebaseapp.com",
+        projectId: "fire-67691",
+        storageBucket: "fire-67691.appspot.com",
+        messagingSenderId: "458118986394",
+        appId: "1:458118986394:web:1e49ee7f96557552fc3d23",
+        measurementId: "G-PG7C9H6H2T",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+      const auth = getAuth();
+      const click = document.querySelector(".signups");
+      click.addEventListener("submit", (e) => {
+        e.preventDefault();
+        const email = click.email.value;
+        const password = click.password.value;
+        createUserWithEmailAndPassword(auth, email, password)
+        .then((userCredential) => {
+          // Signed in 
+          const user = userCredential.user;
+          alert("user created")
+          location.replace("/authentication/Sign in.html")
+          // ...
+        })
+        .catch((error) => {
+          const errorCode = error.code;
+          const errorMessage = error.message;
+          alert("user already present sign in again")
+          
+        });
+      });
+    </script>
+  </body>
+</html>

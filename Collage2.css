@@ -1,0 +1,47 @@
+/* boxRight box style  */
+
+
+/* collage for 2 pic  */
+
+/* first  */
+.collage1a{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    display: none;
+}
+
+.box1a{
+    border: 3px solid red;
+    height: 33vh;
+}
+
+
+.box2a{
+    border: 3px solid blue;
+    height: 32vh;
+}
+
+/* second  */
+
+.collage1b{
+    padding: 5px;
+    display: none;
+}
+
+.collage1bb{
+    display: flex;
+}
+
+.box1b{
+    border: 3px solid red;      
+    width: 40vw;
+    height: 67vh;
+}
+
+
+.box2b{
+    border: 3px solid blue;
+    width: 40vw;
+    height: 67vh;
+}

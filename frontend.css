@@ -1,0 +1,336 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins';
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    position: fixed;
+    width: 100%;
+    pointer-events: auto;
+    background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
+    opacity: 0.9;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: large;
+}
+
+.button{
+    font-size: 15px;
+}
+
+/* This is for narvbar list */
+.navbar li{
+    list-style: none;
+    margin-left: 36px;
+}
+
+/* This is center navbar */
+.center ul{
+    display: flex;
+    margin-inline: 260px;
+}
+
+/* This is right navabr  */
+.right ul{
+    display: flex;
+}
+
+/* This is logo image */
+.logo{
+    height: 65px;
+    width: 88px;
+    /* margin-left: 53px; */
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+}
+
+.container::before{
+    content: ' ';
+    background: url('https://images.pexels.com/photos/1266808/pexels-photo-1266808.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 160%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+/* for page 1 written */
+.inside1{
+    text-align: center;
+    font-size:x-large;
+    margin-top: 1%;
+}
+
+.button1{
+    width: 25%;
+    height: 8vh;
+    font-size: large;
+    border-radius: 12px;
+    background: none;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+
+.button1:hover{
+    cursor: pointer;
+    color: blue;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(255, 255, 255);
+    transition: 0.5s;
+}
+.btna:hover{
+    cursor: pointer;
+    color: blue;
+    transition: 0.5s;
+}
+
+.btna{
+    display: inline-block;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-style: none;
+}
+
+
+.button{
+    width: 120px;
+    height: 32px;
+    border: 3px solid #0000ff;
+    background-color: #0000ff;
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+    bottom: 4px;
+    font-size: 15px;
+}
+
+.button:hover{
+    background-color: white;
+    border: 3px solid white;
+    color: #0000ff;
+    cursor: pointer;
+}
+
+.image1{
+    margin-top: 3%;
+}
+
+
+/* This is between */
+.space{
+    background-color: white;
+    background: white;
+    height: 20%;
+    z-index: -1;
+}
+.space::before{
+    content: ' ';
+    background: white;
+    position: absolute;
+    width: 100%;
+    height: 150%;
+    z-index: -1;
+}
+.between1{
+    padding-top: 4%;
+    text-align: center;
+    /* background-color: white; */
+    z-index: -1;
+    background-color: white;
+    color: black;
+    margin-bottom: 4%;
+}
+
+/* This is second page  */
+ 
+.inside2{
+    display: flex;
+    justify-content: end;
+    padding-left: 23px;
+    height: 100vh;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(#b8f7b8, white);
+}
+/* .inside2::before{
+    content:" ";
+    background: url('/Images/collage.jpg') no-repeat center center/cover;
+    position: absolute;
+    z-index: -6;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+}  */
+
+
+/* This is second page written  */
+.written2{
+    padding-left: 20px;
+}
+
+/* This is second page image1  */
+.image2{
+    box-shadow: 1px 1px 12px 1px#3a3c3d;
+    height: 399px;
+    border-radius: 6px;
+}
+
+.space::before{
+    content: ' ';
+    background: white;
+    position: absolute;
+    width: 100%;
+    height: 150%;
+    z-index: -1;
+}
+/* This is third page  */
+.inside3{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(#ff5353, white);
+}
+/* .inside3::before{
+    content:" ";
+    background: url('/Images/photo4.avif') no-repeat center center/cover;
+    position: absolute;
+    z-index: -4;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    right: 0px;
+    left: 0px;
+}  */
+
+/* This is third page written  */
+.written3{
+    padding-right: 23px;
+    color: rgb(0, 0, 0);
+}
+
+/* This is Third page image1  */
+.image3{
+    box-shadow: 1px 1px 12px 1px#3a3c3d;
+    height: 399px;
+    border-radius: 6px;
+}
+
+.space::before{
+    content: ' ';
+    background: white;
+    position: absolute;
+    width: 100%;
+    height: 150%;
+    z-index: -1;
+}
+/* This is second page  */
+ 
+.inside4{
+    display: flex;
+    justify-content: end;
+    padding-left: 23px;
+    height: 100vh;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(#4d4def, white);
+    
+}
+/* .inside4::before{
+    content:" ";
+    background: url('/Images/photo6.avif') no-repeat center center/cover;
+    position: absolute;
+    z-index: -6;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+}  */
+
+/* This is fourth page written  */
+.written4{
+    padding-left: 20px;
+}
+
+.btn1{
+    width: 25%;
+    height: 8vh;
+    font-size: large;
+    border-radius: 12px;
+    background: none;
+    color: green;
+    border: 2px solid green;
+}
+
+.btn1:hover{
+    cursor: pointer;
+    color: blue;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.btn1a{
+    color: green;
+}
+
+.btn3{
+    width: 25%;
+    height: 8vh;
+    font-size: large;
+    border-radius: 12px;
+    background: none;
+    color: blue;
+    border: 2px solid blue;
+}
+.btn3a{
+    color: blue;
+}
+
+.btn3:hover{
+    cursor: pointer;
+    color: blue;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.btn2{
+    width: 25%;
+    height: 8vh;
+    font-size: large;
+    border-radius: 12px;
+    background: none;
+    color: red;
+    border: 2px solid red;
+}
+
+.btn2:hover{
+    cursor: pointer;
+    color: blue;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.btn2a{
+    color: red;
+}

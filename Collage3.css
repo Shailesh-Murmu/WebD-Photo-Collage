@@ -1,0 +1,120 @@
+/* collage for 3 pic  */
+
+/* first  */
+.collage2a{
+    padding: 5px;
+    display: none;
+}
+
+.collage2aa{
+    display: flex;
+}
+
+.box12a{
+    border: 3px solid red;
+    width: 40vw;
+    height: 67vh;
+}
+
+
+.box12b{
+    border: 3px solid blue;
+    width: 40vw;
+    height: 67vh;
+}
+
+.box12c{
+    border: 3px solid rgb(0, 255, 72);
+    width: 40vw;
+    height: 67vh;
+}
+
+
+/* second  */
+
+.collage2b{
+    padding: 5px;
+    /* display: flex; */
+    display: none;
+}
+
+.box22a{
+    border: 3px solid red;
+    width: 38.5vw;
+    height: 33vh;
+}
+
+.in2a{
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.box22b{
+    border: 3px solid blue;
+    width: 38.5vw;
+    height: 33vh;
+}
+
+.box22c{
+    border: 3px solid rgb(0, 255, 72);
+    width: 38.5vw;
+    height: 33vh;
+}
+
+/* third  */
+
+.collage2c{
+    padding: 5px;
+    display: none;
+}
+
+.box32a{
+    border: 3px solid red;
+    
+    height: 22vh;
+}
+
+
+.box32b{
+    border: 3px solid blue;
+    
+    height: 22vh;
+}
+
+.box32c{
+    border: 3px solid rgb(0, 255, 72);
+    
+    height: 19vh;
+}
+
+
+/* fourth  */
+
+.collage2d{
+    padding: 5px;
+    /* display: flex; */
+    display: none;
+}
+
+.box42a{
+    border: 3px solid red;
+    width: 38.5vw;
+    height: 33vh;
+}
+
+.in2b{
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.box42b{
+    border: 3px solid blue;
+    width: 38.5vw;
+    height: 33vh;
+}
+
+.box42c{
+    border: 3px solid rgb(0, 255, 72);
+    width: 38.5vw;
+    height: 33vh;
+}

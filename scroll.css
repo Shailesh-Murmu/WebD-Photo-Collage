@@ -1,0 +1,16 @@
+.scroll{
+    margin-top: 10px;
+    overflow-y: scroll;
+    height: 60vh;
+    /* border: 3px solid pink; */
+    box-shadow: 2px 2px 12px  black;
+}
+
+.insideon{
+    margin-top: 16px;
+    overflow-y: scroll;
+    height: 60vh;
+    /* border: 3px solid pink; */
+    box-shadow: 2px 2px 12px  black;
+}
+

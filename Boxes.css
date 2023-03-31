@@ -1,0 +1,135 @@
+/* boss box  */
+div{
+    color: white;
+}
+.boxes{
+    border: 3px solid red;
+    display: flex;
+    height: 88vh;
+}
+
+/* left box  */
+.boxLeft{
+    border: 3px solid green;
+    width: 4vw;
+    background: linear-gradient(to bottom, #f86e6e 0%, #4545ff 100%);
+    border-radius: 2px;
+    box-shadow: 3px 3px 12px 2px rgb(47, 46, 46);
+}
+
+.color{
+    border: 3px solid rgb(49, 145, 230);
+    
+}
+
+.images{
+    border: 3px solid violet;
+}
+
+.collage{
+    border: 3px solid rgb(225, 214, 65);
+}
+
+
+
+/* center box  */
+.boxCenter1{
+    border: 3px solid black;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 6px;
+    background: linear-gradient(to bottom, #00ff85 0%, #0051ff 100%);
+    border-radius: 2px;
+    box-shadow: 3px 3px 12px 2px rgb(47, 46, 46);
+    
+}
+
+.boxCenter2{
+    border: 3px solid black;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 6px;
+    display: none;
+    background: linear-gradient(to bottom, #00ff85 0%, #0051ff 100%);
+    border-radius: 2px;
+    box-shadow: 3px 3px 12px 2px rgb(47, 46, 46);
+}
+
+
+.boxCenter3{
+    border: 3px solid black;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 6px;
+    display: none;
+    background: linear-gradient(to bottom, #00ff85 0%, #0051ff 100%);
+    border-radius: 2px;
+    box-shadow: 3px 3px 12px 2px rgb(47, 46, 46);
+
+}
+
+.btn{
+margin-top: 10px;
+}
+
+
+
+/* right box  */
+.boxRight{
+    border: 3px solid blue;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d6eaf8;
+}
+
+.inside1{
+    border: 3px solid pink;
+    width: 40vw;
+    height: 70vh;
+    background-color: white;
+    border-radius: 2px;
+    margin-bottom: 68px;
+    box-shadow: 3px 3px 12px 2px rgb(47, 46, 46);
+}
+
+.i{
+    border: 3px solid red;
+    width: 14.5vw;
+    height: 30vh;
+    background-color: white;
+}
+
+/* icons  */
+.icon1{
+    width: 40px;
+    height: 40px;
+}
+
+.icon2{
+    width: 40px;
+    height: 40px;
+}
+
+.icon3{
+    width: 60px;
+    height: 55px;
+    position: relative;
+    right: 10px;
+}
+
+.icon{
+    margin-top: 10px;
+}
+
+
+.box{
+    margin: 5px;
+}

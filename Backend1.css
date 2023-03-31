@@ -1,0 +1,134 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins';
+    background-color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+
+
+/* This is for narvbar list */
+.navbar li{
+    list-style: none;
+    margin-left: 36px;
+}
+
+/* This is center navbar */
+.center ul{
+    display: flex;
+    margin-inline: 240px;
+}
+
+/* This is right navabr  */
+.right ul{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: large;
+}
+
+/* This is logo image */
+.logo{
+    height: 65px;
+    width: 88px;
+    /* margin-left: 53px; */
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+}
+.container::before{
+    content: ' ';
+    background: url('https://images.pexels.com/photos/1532704/pexels-photo-1532704.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+.popup{
+    background-color: white;
+    display: flex;
+    border-radius: 12px;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 70vh;
+    box-shadow: 3px 3px 12px 2px rgb(47, 46, 46);
+}
+.button{
+    margin: 4px;
+    height: 120px;
+    width: 320px;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: beige;
+}
+
+.navbtn{
+    background: none;
+    border: none;
+    font-size: large;
+    color: white;
+}
+.navbtn:hover{
+    cursor: pointer;
+    color: rgb(222, 221, 221);
+}
+.button1{
+    width: 120px;
+    height: 32px;
+    border: 3px solid #0000ff;
+    background-color: #0000ff;
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+    bottom: 4px;
+    font-size: 15px;
+}
+
+.button1:hover{
+    background-color: white;
+    border: 3px solid white;
+    color: #0000ff;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn{
+    width: 120px;
+    height: 32px;
+    border: 3px solid #0000ff;
+    background-color: #0000ff;
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+    bottom: 4px;
+    font-size: 15px;
+}
+
+.btn:hover{
+    background-color: white;
+    border: 3px solid white;
+    color: #0000ff;
+    cursor: pointer;
+    text-align: center;
+    border: 3px solid #0000ff;
+}
+form{
+    text-align: center;
+}

@@ -1,0 +1,282 @@
+/* collage for 4 photos  */
+
+
+
+/* first  */
+
+.collage3a{
+    padding: 5px;
+    /* display: flex; */
+    display: none;
+}
+
+.box42a{
+    border: 3px solid red;
+    width: 38.5vw;
+    height: 33vh;
+}
+
+.in3aa{
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.in3ab{
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.box42b{
+    border: 3px solid blue;
+    width: 38.5vw;
+    height: 33vh;
+}
+
+.box42c{
+    border: 3px solid rgb(0, 255, 72);
+    width: 38.5vw;
+    height: 30vh;
+}
+.box42d{
+    border: 3px solid rgb(0, 255, 72);
+    width: 38.5vw;
+    height: 33vh;
+}
+
+
+
+/* second  */
+.collage3b{
+    padding: 5px;
+    display: none;
+}
+
+.collage3bb{
+    display: flex;
+}
+
+.box43a{
+    border: 3px solid red;
+    width: 19vw;
+    height: 66vh;
+}
+
+.box43b{
+    border: 3px solid blue;
+    width: 18vw;
+    height: 22vh;
+}
+
+.box43c{
+    border: 3px solid rgb(0, 255, 72);
+    width: 18vw;
+    height: 20vh;
+}
+
+.box43d{
+    border: 3px solid rgb(0, 255, 72);
+    width: 18vw;
+    height: 20vh;
+}
+
+
+/* third  */
+.collage3c{
+    padding: 5px;
+    display: none;
+
+}
+
+.collage3cc{
+    display: flex;
+}
+
+.box44a{
+    border: 3px solid red;
+    width: 18vw;
+    height: 67vh;
+}
+
+.box44b{
+    border: 3px solid blue;
+    width: 19vw;
+    height: 22vh;
+}
+
+.box44c{
+    border: 3px solid rgb(0, 255, 72);
+    width: 19vw;
+    height: 20vh;
+}
+
+.box44d{
+    border: 3px solid rgb(0, 255, 72);
+    width: 19vw;
+    height: 21vh;
+}
+
+/* fourth  */
+.collage3d{
+    padding: 5px;
+    display: flex;
+    flex-direction: column  ;
+    display: none;
+}
+
+.box45a{
+    border: 3px solid red;
+    width: 30vw;
+    height: 33vh;
+}
+
+.in3ea{
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.in3eb{
+    display: flex;
+    /* flex-direction: row; */
+}
+.box45b{
+    border: 3px solid blue;
+    width: 40vw;
+    height: 33vh;
+}
+
+.box45c{
+    border: 3px solid rgb(0, 255, 72);
+    width: 40vw;
+    height: 30vh;
+}
+
+.box45d{
+    border: 3px solid rgb(0, 255, 72);
+    width: 30vw;
+    height: 30vh;
+}
+
+
+/* fifth  */
+.collage3e{
+    padding: 5px;
+    display: flex;
+    flex-direction: column  ;
+    display: none;
+}
+
+.box46a{
+    border: 3px solid red;
+    width: 40vw;
+    height: 33vh;
+}
+
+.in3fa{
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.in3fb{
+    display: flex;
+    /* flex-direction: row; */
+}
+.box46b{
+    border: 3px solid blue;
+    width: 30vw;
+    height: 33vh;
+}
+
+.box46c{
+    border: 3px solid rgb(0, 255, 72);
+    width: 30vw;
+    height: 30vh;
+}
+
+.box46d{
+    border: 3px solid rgb(0, 255, 72);
+    width: 40vw;
+    height: 30vh;
+}
+
+/* sixth  */
+.collage3f{
+    padding: 5px;
+    /* display: flex; */
+    display: none;
+}
+
+.in3da{
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.in3db{
+    display: flex;
+    /* flex-direction: row; */
+}
+.box47a{
+    border: 3px solid red;
+    width: 40vw;
+    height: 30vh;
+}
+
+
+.box47b{
+    border: 3px solid blue;
+    width: 40vw;
+    height: 33vh;
+}
+
+.box47c{
+    border: 3px solid rgb(0, 255, 72);
+    width: 40vw;
+    height: 33vh;
+}
+
+.box47d{
+    border: 3px solid rgb(0, 255, 72);
+    width: 40vw;
+    height: 33vh;
+}
+
+
+/* seventh  */
+.collage3g{
+    padding: 5px;
+    /* display: flex; */
+    display: none;
+}
+
+.in3ea{
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.in3eb{
+    display: flex;
+    /* flex-direction: row; */
+}
+.box48a{
+    border: 3px solid red;
+    width: 40vw;
+    height: 33vh;
+}
+
+
+.box48b{
+    border: 3px solid blue;
+    width: 40vw;
+    height: 30vh;
+}
+
+.box48c{
+    border: 3px solid rgb(0, 255, 72);
+    width: 40vw;
+    height: 30vh;
+}
+
+.box48d{
+    border: 3px solid rgb(0, 255, 72);
+    width: 40vw;
+    height: 30vh;
+}
